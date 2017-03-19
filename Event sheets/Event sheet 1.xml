@@ -2,5 +2,37 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <variable constant="0" name="cans" sid="341678124047343" static="0" type="number">4</variable>
+        <variable constant="0" name="pritsel" sid="399917343757049" static="0" type="number">1</variable>
+        <event-block sid="704798324860875">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="339346829944396" type="rock">
+                    <param id="0" name="Object">can</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="105505871658741" type="can" />
+                <action id="-11" name="Subtract from" sid="943512610683583" type="System">
+                    <param id="0" name="Variable">cans</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="102136922858333">
+            <conditions>
+                <condition id="-13" name="Is between angles" sid="799269827115836" type="can">
+                    <param id="0" name="First angle">30</param>
+                    <param id="1" name="Second angle">180</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="111795774568861" type="can" />
+                <action id="-11" name="Subtract from" sid="115874636982688" type="System">
+                    <param id="0" name="Variable">cans</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

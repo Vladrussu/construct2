@@ -7,19 +7,22 @@
     <author-email></author-email>
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
-    <unique-id>2xzsrsqixtfup</unique-id>
+    <unique-id>t1ao6hq8y52p</unique-id>
     <saved-with-version>23900</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
-    <used-behaviors />
+    <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
+        <width>780</width>
         <height>480</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
@@ -29,7 +32,7 @@
         <prop name="Clear background">Yes</prop>
         <prop name="Downscaling">Medium quality</prop>
         <prop name="Enable WebGL">On</prop>
-        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen in browser">Off</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
         <prop name="Orientations">Any</prop>
@@ -41,37 +44,138 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="800pxMonumentvalley" sid="538431155564590">
+        <object-type name="fon" sid="478147131262521">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="691900906812774" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="C:\Users\Radu_n32\Desktop\800px-Monumentvalley.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410659758988492" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Stre_a69\Desktop\KM6jWUujeGI (1).jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="2015MarocMerzouga_" sid="700050241678472">
+        <object-type name="border" sid="551381935688640">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="209535907755601">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="700900685395429" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500747" original-source="C:\Users\Radu_n32\Desktop\2015-Maroc-Merzouga_022.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="290077034133048" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground" sid="758110646188350">
-            <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Radu_n32\Desktop\2015-Maroc-Merzouga_022.jpg" />
-        </object-type>
-        <object-type name="800pxMonumentvalley2" sid="796753919300253">
+        <object-type name="Sprite" sid="707942260756428">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940309192558359" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502008" original-source="C:\Users\Radu_n32\Desktop\800px-Monumentvalley.jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="346411309854833" speed="5">
+                    <frame duration="1" hotspotX="0.503597" hotspotY="0.503597" original-source="C:\Users\Stre_a69\Desktop\птица1.jpg" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="TiledBackground2" sid="238110475315531">
-            <plugin id="TiledBg" />
-            <texture />
+        <object-type name="rock" sid="982844142928725">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="868490121801506">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="834547566914207" speed="5">
+                    <frame duration="1" hotspotX="0.55102" hotspotY="0.68254" original-source="C:\Users\Stre_a69\Downloads\lolol\лолол\1.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="can" sid="766297848367033">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="288202260997903">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="721741691528391" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Stre_a69\Downloads\Svinya_pokoy\Свинья покой.png">
+                        <collision-poly>
+                            <point x="0.185714" y="0.185714" />
+                            <point x="0.5" y="0.0857143" />
+                            <point x="0.742857" y="0.257143" />
+                            <point x="0.914286" y="0.5" />
+                            <point x="0.814286" y="0.814286" />
+                            <point x="0.5" y="0.928571" />
+                            <point x="0.185714" y="0.814286" />
+                            <point x="0.0857143" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="538566146864990">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="772247266901938" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Stre_a69\Downloads\2222\лолол\Рогатка2.png">
+                        <collision-poly>
+                            <point x="0.803333" y="0.375556" />
+                            <point x="0.808333" y="0.0711111" />
+                            <point x="0.93" y="0.0511111" />
+                            <point x="0.938333" y="0.308889" />
+                            <point x="0.875833" y="0.453334" />
+                            <point x="0.813333" y="0.597778" />
+                            <point x="0.819271" y="0.877778" />
+                            <point x="0.83224" y="0.995556" />
+                            <point x="0.755208" y="0.997083" />
+                            <point x="0.687083" y="0.998611" />
+                            <point x="0.700833" y="0.886111" />
+                            <point x="0.678333" y="0.607778" />
+                            <point x="0.736667" y="0.508889" />
+                            <point x="0.74" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="rogatka" sid="969566236079449">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="786779094992608" speed="5">
+                    <frame duration="1" hotspotX="0.378049" hotspotY="0.494118" original-source="C:\Users\Stre_a69\Downloads\2222\лолол\Без-назви-1.png">
+                        <collision-poly>
+                            <point x="0.658537" y="0.301961" />
+                            <point x="0.841463" y="0.937255" />
+                            <point x="0.646341" y="0.937255" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="palka" sid="694971560296353">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="956513829748799">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="496433206038799" speed="5">
+                    <frame duration="1" hotspotX="0.446429" hotspotY="0.510101" original-source="C:\Users\Stre_a69\Downloads\Bez-nazvi-1\Без-назви-1.png">
+                        <collision-poly>
+                            <point x="0.142857" y="0.010101" />
+                            <point x="0.946429" y="0" />
+                            <point x="0.946429" y="0.808081" />
+                            <point x="0.9375" y="0.964647" />
+                            <point x="0.107143" y="0.969697" />
+                            <point x="0.196429" y="0.833333" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="991275555428419">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="Keyboard" sid="581436773744800">
+            <plugin id="Keyboard" />
         </object-type>
     </object-folder>
     <families />
@@ -81,7 +185,14 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Touch" uid="16">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Keyboard" uid="17" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
